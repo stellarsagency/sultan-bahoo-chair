@@ -605,7 +605,31 @@ img { max-width: 100%; height: auto; }
     transition: var(--transition);
 }
 
-.aim-card:hover .icon { background: var(--logo-teal); transform: rotateY(180deg) scale(1.1); }
+.aim-card:hover .icon { transform: scale(1.1); }
+
+.icon-orange { background: #B84A1C; }
+.icon-teal { background: #1A8A7D; }
+.icon-gold { background: #D4A843; }
+.icon-red { background: #C43A2A; }
+.icon-black { background: #1A1A1A; }
+.icon-orange-dark { background: #D4622E; }
+.icon-teal-dark { background: #22A89A; }
+.icon-gold-dark { background: #A07830; }
+.icon-cream { background: #B8956A; color: var(--primary); }
+.icon-red-dark { background: #8B1A1A; }
+.icon-brown { background: #6B3A2A; }
+
+.icon-orange:hover { background: #1A8A7D; }
+.icon-teal:hover { background: #B84A1C; }
+.icon-gold:hover { background: #1A8A7D; }
+.icon-red:hover { background: #1A8A7D; }
+.icon-black:hover { background: #1A8A7D; }
+.icon-orange-dark:hover { background: #1A8A7D; }
+.icon-teal-dark:hover { background: #B84A1C; }
+.icon-gold-dark:hover { background: #1A8A7D; }
+.icon-cream:hover { background: #1A8A7D; color: var(--white); }
+.icon-red-dark:hover { background: #1A8A7D; }
+.icon-brown:hover { background: #1A8A7D; }
 
 .aim-card h3 { color: var(--logo-orange); font-size: 1.05rem; margin-bottom: 10px; font-weight: 600; }
 .aim-card p { color: var(--dark-gray); font-size: 0.88rem; line-height: 1.6; }
