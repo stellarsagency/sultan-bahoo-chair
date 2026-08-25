@@ -179,17 +179,7 @@ img { max-width: 100%; height: auto; }
     left: 0;
     right: 0;
     height: 8px;
-    background: repeating-linear-gradient(
-        90deg,
-        var(--logo-orange) 0px,
-        var(--logo-orange) 20px,
-        var(--logo-teal) 20px,
-        var(--logo-teal) 40px,
-        var(--logo-gold) 40px,
-        var(--logo-gold) 60px,
-        var(--logo-red) 60px,
-        var(--logo-red) 80px
-    );
+    background: var(--logo-orange);
     z-index: 3;
 }
 
@@ -782,17 +772,7 @@ img { max-width: 100%; height: auto; }
     left: 0;
     right: 0;
     height: 6px;
-    background: repeating-linear-gradient(
-        90deg,
-        var(--logo-orange) 0px,
-        var(--logo-orange) 20px,
-        var(--logo-teal) 20px,
-        var(--logo-teal) 40px,
-        var(--logo-gold) 40px,
-        var(--logo-gold) 60px,
-        var(--logo-red) 60px,
-        var(--logo-red) 80px
-    );
+    background: var(--logo-orange);
 }
 
 .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
