@@ -390,7 +390,7 @@ img { max-width: 100%; height: auto; }
     border: 4px solid var(--logo-orange);
 }
 
-.about-image img { width: 100%; height: 420px; object-fit: cover; transition: transform 0.7s ease; }
+.about-image img { width: 100%; height: 420px; object-fit: contain; transition: transform 0.7s ease; background: var(--primary); }
 .about-image:hover img { transform: scale(1.05); }
 
 .about-image .experience-badge {
